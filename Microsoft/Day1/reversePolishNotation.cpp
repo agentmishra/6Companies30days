@@ -17,7 +17,6 @@ public:
         stack<int> reversePolishNotation;
         
         for(auto &element: tokens) {
-            
             if(element == "+" || element == "-" || element == "/" || element == "*") {
                 
                 // since it's a stack so first element popping out will be second
